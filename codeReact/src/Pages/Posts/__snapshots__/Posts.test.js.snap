@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Posts renders should Posts match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post_maincontainer"
+  >
+    <div
+      class="infinite-scroll-component__outerdiv"
+    >
+      <div
+        class="infinite-scroll-component "
+        style="height: auto; overflow: auto;"
+      />
+    </div>
+    <div
+      class="following_maincontainer"
+    >
+      <div
+        class="following-stories"
+      >
+        <p>
+          stories for you
+        </p>
+      </div>
+      <div
+        class="following-recomend"
+      >
+        <p>
+          recomended for you
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

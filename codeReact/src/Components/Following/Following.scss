@@ -1,0 +1,81 @@
+.following_maincontainer {
+  position: fixed;
+  left: calc(20% + 650px);
+  top: 140px;
+  width: 300px;
+  height: 600px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.following_post_card_User_Photo {
+  padding: auto;
+  overflow: hidden;
+  border-radius: 25px;
+  max-width: 40px;
+  max-height: 40px;
+  overflow: hidden;
+}
+.following_post_card_user {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+   padding: 10px 10px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.following-stories {
+    box-sizing: border-box;
+  margin: 5% auto;
+  padding: 30px 40px 0;
+  width: 90%;
+  background-color: white;
+  height: 270px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  & p {
+    color: gray;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    position: absolute;
+    top:30px;
+    left: 50px;
+  }
+}
+.following-recomend{
+    margin: 5% auto;
+  padding: 20px 0 0;
+  width: 90%;
+  background-color: white;
+  height: 270px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  & p {
+    color: gray;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    position: absolute;
+    top: 310px;
+    left: 50px;
+  }}
+  .following_subscribe_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    &
+    div{
+        color: blue;
+        &:hover{
+        color: rgb(1, 1, 104);
+        cursor: pointer;
+        }
+    }
+  }

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heart renders should Heart match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="post_card_image_container"
+    >
+      <img
+        alt=""
+        class="post_card_image"
+        src="undefined"
+      />
+    </div>
+    <div
+      class="post_card_heart"
+    >
+      ♡
+    </div>
+    <p
+      class="post_card_likes"
+    >
+      undefined Likes 
+    </p>
+  </div>
+</DocumentFragment>
+`;

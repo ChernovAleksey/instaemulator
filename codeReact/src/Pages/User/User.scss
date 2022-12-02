@@ -1,0 +1,51 @@
+.user_page_title{
+margin: 0 auto;    
+width: 60%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: top;
+gap: 100px;
+padding-top: 150px;
+}
+.user_page_image{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100px;  
+    &
+    img {
+        //width: 200px;
+        height: 200px;
+    }
+    
+}
+
+.user_titles_info{
+font-size: 30px;
+    font-weight: 300;
+}
+.user_page_nickname{
+    font-size: 50px;
+    font-weight: 500;
+}
+.user_page_subscribe {
+    margin-top: 20px;
+        color: blue;
+        font-size: 20px;
+        font-weight: 500;
+        &:hover{
+        color: rgb(1, 1, 104);
+        cursor: pointer;
+        }
+    }
+
+.user_page_main_container{
+    padding: 70px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;    
+    width: 60%;
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Following renders should Following match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="following_maincontainer"
+  >
+    <div
+      class="following-stories"
+    >
+      <p>
+        stories for you
+      </p>
+    </div>
+    <div
+      class="following-recomend"
+    >
+      <p>
+        recomended for you
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

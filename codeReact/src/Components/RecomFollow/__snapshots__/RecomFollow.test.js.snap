@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecomFollow renders should RecomFollow match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="following_subscribe_line"
+    >
+      <a
+        class="following_post_card_user"
+        href="/user/undefined"
+      >
+        <img
+          alt=""
+          class="following_post_card_User_Photo"
+          src="undefined"
+        />
+        undefined
+      </a>
+      <div>
+        subscribe
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

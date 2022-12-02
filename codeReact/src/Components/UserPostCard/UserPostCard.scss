@@ -1,0 +1,17 @@
+.user_card_container {
+    
+  height: 300px;
+  width: 300px;
+overflow: hidden;
+  position: relative;
+}
+
+.user_card_img {
+  height: 300px;
+  width: 300px;
+  background-color: gray; 
+  padding: auto;
+  & img {
+    height: 300px;
+  }
+}
